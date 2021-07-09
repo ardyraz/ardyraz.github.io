@@ -1,0 +1,197 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 226, 179, 0.5),rgb(218, 247, 166, 0.5)), url("images/dream.PNG");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 250px;  
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:#117A65;
+    text-decoration: none;}
+
+.text-box{
+    width: 90%;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box h2{
+    font-size: 40px;
+}
+.text-box p{
+    font-size: 20px;
+}
+.explore-button{
+    cursor: pointer;
+    color: #cc0052;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid #003333;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+}
+.explore-button:hover{
+    color: #000;
+    background-color: #fff;
+}
+.explore-button a:visited{
+    background-color: #fff;
+}
+.purpose {
+    font-size: 15px;
+}
+
+
+/*---- webinar ----*/
+.webinar{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;   
+}
+.webinar-col{
+    flex-basis: 30%;
+    background-color:#56a898;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    background: salmon;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: #fff;
+}
+.item{
+    background-color: sandybrown;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*css for form*/
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(images/v5.jpg);
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-height: 60px;
+    height: 60px;
+    background: #fff;
+}
+
+.carousel{
+    width: 70%;
+    padding: 20px;
+}
+.carouselExampleIndicators{
+    align-content: center;
+}
+
+.text-boxVol{
+    text-align: center;
+    color: cadetblue;
+}
+.text-boxVol p{
+    background-color: lightgray;
+}
